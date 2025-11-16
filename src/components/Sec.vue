@@ -90,29 +90,18 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 const largura = ref(window.innerWidth)
  async function baixarcurri() {
-  const url = "https://portfolio-backend-g9gf.onrender.com/download/curriculo";
-  let response;
-
-  try {
-    response = await fetch(url);
-  } catch (err) {
-    alert("O servidor ainda está acordando. Tente novamente em alguns segundos.");
-    return;
-  }
-
-  if (!response.ok) {
-    alert("Erro ao baixar o currículo.");
-    return;
-  }
+  const response = await fetch("https://portfolio-backend-g9gf.onrender.com/download/curriculo");
+  if (!response.ok) return alert("Servidor acordando, tente de novo em alguns segundos!");
 
   const blob = await response.blob();
+  const url = window.URL.createObjectURL(blob);
   const a = document.createElement("a");
-  a.href = window.URL.createObjectURL(blob);
+  a.href = url;
   a.download = "MiguelBRCurriculo.pdf";
-  document.body.appendChild(a);
   a.click();
   a.remove();
-}
+  window.URL.revokeObjectURL(url);
+ }
 function atualizarTamanho() {
   largura.value = window.innerWidth
   console.log("Nova largura:", largura.value)
