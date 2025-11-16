@@ -39,7 +39,7 @@ Ao longo da graduação, participei de diversos projetos que me permitiram explo
         <div class="d-flex w-100 flex-column">
             <h2 class="fonte4">Reforma na Palma da Mão</h2>
             <p class="fonte2">2024 - 2025</p>
-            <p class="fonte2">Atuei como o desenvolvedor Full-Stack responsável pelo desenvolvimento da plataforma Web <i class="fonte4">Reforma na Palma da Mão</i></p>   
+            <p class="fonte2">Atuei como desenvolvedor Full-Stack responsável pelo desenvolvimento da plataforma web <i class="fonte4">Reforma na Palma da Mão</i>, liderando a implementação tanto do frontend quanto do backend. Durante o projeto, apliquei boas práticas de desenvolvimento, incluindo controle de versão, testes e documentação, além de colaborar com a equipe seguindo metodologias ágeis como Scrum para planejar, priorizar e entregar funcionalidades de forma iterativa.
             <div class="d-flex w-100 justify-content-center">
                 <img class="imagem2" src="@/assets/reforma.jfif"></img>
             </div>
