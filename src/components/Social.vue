@@ -2,7 +2,7 @@
     
     <div class="d-flex w-100 up justify-content-center">
         <ul class="d-flex bar2 nav justify-content-around">
-            <a class="soc" href="linkedin.com/in/miguel-borges-de-rezende-costa-633910310"><li>Linkedin</li></a>
+            <a class="soc" href="https://www.linkedin.com/in/miguel-borges-de-rezende-costa-633910310?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BW4c9l5bZT0SAPZxDNUlouw%3D%3D"><li>Linkedin</li></a>
             <a class="soc"href="https://github.com/MiguelBorges2"><li>Github</li></a>
         </ul>
     </div>

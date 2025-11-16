@@ -8,7 +8,7 @@ Trabalho principalmente com Vue.js, React, Node.js, Spring Boot, Python e Java, 
 Sou apaixonado por computação, engenharia de software e inteligência artificial, sempre buscando aprender tecnologias novas e criar soluções que realmente façam diferença.
 
 No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao longo da minha trajetória acadêmica e profissional — cada um deles representando algo que acredito: código limpo, boas práticas e amor pela tecnologia </p>
-        <a href="https://portfolio-backend-g9gf.onrender.com/download/curriculo"><button class="butao">Baixe meu currículo</button></a>
+        <button @click="baixarcurri()" class="butao">Baixe meu currículo</button>
         </div>
         <img class="imagem" src="@/assets/rosto2.jpeg"></img>
         
@@ -60,13 +60,13 @@ Também participei de equipes que seguiam metodologias ágeis, especialmente o f
             <h2 class="fonte4">Reforma na Palma da Mão</h2>
              <p class="fonte2">O website <i class="fonte4">Reforma na Palma da Mão</i> foi desenvolvido utilizando Vue.js no frontend, Node.js no backend e Bootstrap para construção da interface responsiva. A aplicação integra-se a um banco de dados hospedado na AWS, garantindo escalabilidade, segurança e alta disponibilidade.
 Além disso, o projeto foi estruturado seguindo boas práticas de arquitetura, separação de camadas e comunicação eficiente entre cliente e servidor, resultando em uma plataforma moderna, estável e de fácil manutenção.</p>   
-            <a href="https://reformacasa.facom.ufu.br/"><button class="butao">Confira o Proejto!</button></a>
+            <a href="https://reformacasa.facom.ufu.br/"><button class="butao">Confira o Projeto!</button></a>
         </div>
             
           <div class="d-flex w-100 flex-column">
             <h2 class="fonte4">Site méta-linguístico para RPG</h2>
              <p class="fonte2"> Projeto pessoal no qual combinei meus conhecimentos em desenvolvimento web com minha paixão por RPG de mesa. Criei um site que simula um portal real dentro do universo do RPG, incorporando diversos *easter eggs* para que os jogadores possam explorar, interagir e descobrir mais sobre o cenário. A proposta une imersão narrativa com elementos de design e tecnologia, oferecendo uma experiência divertida e dinâmica. </p>
-              <a href="https://reformacasa.facom.ufu.br/"><button class="butao">Confira o Proejto!</button></a>
+              <a href="https://reformacasa.facom.ufu.br/"><button class="butao">Confira o Projeto!</button></a>
         </div>
         
     </div>
@@ -89,7 +89,10 @@ Além disso, o projeto foi estruturado seguindo boas práticas de arquitetura, s
 import { ref, onMounted, onUnmounted } from 'vue'
 
 const largura = ref(window.innerWidth)
-
+ function baixarcurri() {
+   window.location.href =
+    "https://portfolio-backend-g9gf.onrender.com/download/curriculo";
+}
 function atualizarTamanho() {
   largura.value = window.innerWidth
   console.log("Nova largura:", largura.value)
