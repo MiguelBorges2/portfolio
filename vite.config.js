@@ -11,6 +11,9 @@ export default defineConfig({
       devtools: false // 🔥 desativa devtools no build
     })
   ],
+   define: {
+      __VUE_PROD_DEVTOOLS__: false // 🚫 Bloqueia devtools internas
+    },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
