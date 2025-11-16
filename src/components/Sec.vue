@@ -10,7 +10,7 @@ Sou apaixonado por computação, engenharia de software e inteligência artifici
 No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao longo da minha trajetória acadêmica e profissional — cada um deles representando algo que acredito: código limpo, boas práticas e amor pela tecnologia </p>
         <button @click="baixarcurri()" class="butao">Baixe meu currículo</button>
         </div>
-        <img class="imagem" src="@/assets/rosto2.jpeg"></img>
+        <img loading="lazy" class="imagem" src="@/assets/rosto2.jpeg"></img>
         
     </div>
     <div  v-else class="d-flex flex-column secao up justify-content-center align-items-center w-100">
@@ -22,7 +22,7 @@ Trabalho principalmente com Vue.js, React, Node.js, Spring Boot, Python e Java, 
 Sou apaixonado por computação, engenharia de software e inteligência artificial, sempre buscando aprender tecnologias novas e criar soluções que realmente façam diferença.
 
 No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao longo da minha trajetória acadêmica e profissional — cada um deles representando algo que acredito: código limpo, boas práticas e amor pela tecnologia </p>
-            <img class="imagem" src="@/assets/rosto2.jpeg"></img>
+            <img  loading="lazy" class="imagem" src="@/assets/rosto2.jpeg"></img>
             <button @click="baixarcurri()" class="butao up">Baixe meu currículo</button>
         </div>
         
@@ -41,7 +41,7 @@ Ao longo da graduação, participei de diversos projetos que me permitiram explo
             <p class="fonte2">2024 - 2025</p>
             <p class="fonte2">Atuei como desenvolvedor Full-Stack responsável pelo desenvolvimento da plataforma web <i class="fonte4">Reforma na Palma da Mão</i>, liderando a implementação tanto do frontend quanto do backend. Durante o projeto, apliquei boas práticas de desenvolvimento, incluindo controle de versão, testes e documentação, além de colaborar com a equipe seguindo metodologias ágeis como Scrum para planejar, priorizar e entregar funcionalidades de forma iterativa.</p> 
             <div class="d-flex w-100 justify-content-center">
-                <img class="imagem2" src="@/assets/reforma.jfif"></img>
+                <img  loading="lazy" class="imagem2" src="@/assets/reforma.jfif"></img>
             </div>
             
         </div>
