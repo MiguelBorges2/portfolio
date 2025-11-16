@@ -71,6 +71,18 @@ Além disso, o projeto foi estruturado seguindo boas práticas de arquitetura, s
         
     </div>
 
+        <div id="conta" class="d-flex tamanho2 secao flex-column justify-content-center align-items-center">
+            <h1 class="text-light fonte">Contatos</h1>
+            <div class="d-flex w-100 flex-column">
+             <p class="fonte2">Celular: 34 984423034</p>   
+                <p class="fonte2">Email: miguel.costa@ufu.br</p>
+                <p class="fonte2">Linkedin: linkedin.com/in/miguel-borges-de-rezende-costa-633910310</p>
+            </div>
+            
+        
+        </div>
+
+
 </template>
 <script setup>
 
@@ -148,7 +160,7 @@ onUnmounted(() => {
         width: 17%;
         height: auto;
         border-radius: 60px;
-        border: 1px solid white;
+        border: 2px solid white ;
         
     }
     .imagem2 {

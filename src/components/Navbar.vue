@@ -6,6 +6,7 @@
                 <li @click="rola_para('forma')">Formação</li>
                 <li @click="rola_para('exp')">Experiência</li>
                 <li @click="rola_para('proj')">Projetos</li>
+                <li @click="rola_para('conta')">Contatos</li>
 
             </ul>
         </nav>

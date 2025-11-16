@@ -1,10 +1,9 @@
 <template>
     
-    <div class="d-flex w-100 justify-content-center">
+    <div class="d-flex w-100 up justify-content-center">
         <ul class="d-flex bar2 nav justify-content-around">
             <a class="soc" href="linkedin.com/in/miguel-borges-de-rezende-costa-633910310"><li>Linkedin</li></a>
             <a class="soc"href="https://github.com/MiguelBorges2"><li>Github</li></a>
-          
         </ul>
     </div>
 
@@ -23,6 +22,9 @@
 
 </script>
 <style>
+    .up {
+        margin-top: 5%;
+    }
     .soc {
         color: inherit;        /* herda a cor do elemento pai */
         text-decoration: none; 
