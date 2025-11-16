@@ -13,7 +13,7 @@ No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao long
         <img class="imagem" src="@/assets/rosto2.jpeg"></img>
         
     </div>
-    <div  v-else class="d-flex flex-column secao justify-content-center align-items-center w-100">
+    <div  v-else class="d-flex flex-column secao up justify-content-center align-items-center w-100">
         <div  class="d-flex flex-column tamanho  justify-content-center align-items-center">
             <h1 class="text-light fonte">Miguel Borges</h1>
             <p class="fonte2"> Olá! Eu sou o Miguel Borges, desenvolvedor Full-Stack formado em Ciência da Computação pela UFU.
@@ -64,9 +64,9 @@ Além disso, o projeto foi estruturado seguindo boas práticas de arquitetura, s
         </div>
             
           <div class="d-flex w-100 flex-column">
-            <h2 class="fonte4">Site méta-linguístico para RPG</h2>
+            <h2 class="fonte4">Site meta-linguístico para RPG</h2>
              <p class="fonte2"> Projeto pessoal no qual combinei meus conhecimentos em desenvolvimento web com minha paixão por RPG de mesa. Criei um site que simula um portal real dentro do universo do RPG, incorporando diversos *easter eggs* para que os jogadores possam explorar, interagir e descobrir mais sobre o cenário. A proposta une imersão narrativa com elementos de design e tecnologia, oferecendo uma experiência divertida e dinâmica. </p>
-              <a href="https://reformacasa.facom.ufu.br/"><button class="butao">Confira o Projeto!</button></a>
+              <a href="https://github.com/MiguelBorges2/casadaeternapaz"><button class="butao">Confira o Projeto!</button></a>
         </div>
         
     </div>
@@ -76,7 +76,7 @@ Além disso, o projeto foi estruturado seguindo boas práticas de arquitetura, s
             <div class="d-flex w-100 flex-column">
              <p class="fonte2">Celular: 34 984423034</p>   
                 <p class="fonte2">Email: miguel.costa@ufu.br</p>
-                <p class="fonte2">Linkedin: linkedin.com/in/miguel-borges-de-rezende-costa-633910310</p>
+                
             </div>
             
         
@@ -126,7 +126,7 @@ onUnmounted(() => {
     margin: 2%;
 }
 .fonte4 {
-    text-align: justify;
+    text-align: center;
 }
 .up {
     margin-top: 5%;
@@ -173,6 +173,9 @@ onUnmounted(() => {
         margin: 5%;
     }
     @media(max-width: 768px){
+        .butao {
+            width: 60%;
+        }
         .tamanho {
             width:95%; 
         }
@@ -195,7 +198,9 @@ onUnmounted(() => {
         }
     }
       @media(max-width: 500px){
-      
+        .up {
+            margin-top: 8%;
+        }
         .tamanho {
             width:95%; 
         }
@@ -203,14 +208,14 @@ onUnmounted(() => {
             width: 95%;
         }
         .fonte3 {
-            font-size: 3.5vw;
+            font-size: 3.2vw;
         }
          .fonte2 {
-        font-size: 3.5vw;
+        font-size: 3.2vw;
         color: rgba(156, 156, 156, 1);
     }
         .imagem {
-            width: 36%;
+            width: 34%;
             height: auto;
             border-radius: 20px;
         }

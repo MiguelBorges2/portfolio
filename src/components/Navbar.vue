@@ -38,9 +38,21 @@
         @media(max-width: 768px){
             .bar {
                 width: 100%;
+                padding-top: 3%;
+                padding-bottom: 3%;
+        
             }
             li {
                 font-size: 2.7vw;   
+            }
+        }
+         @media(max-width: 500px){
+            li{
+                font-size: 2.6vw;
+            }
+            .bar {
+                padding-top: 3%;
+                padding-bottom: 3%;
             }
         }
     </style>

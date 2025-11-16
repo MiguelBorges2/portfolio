@@ -43,7 +43,20 @@
      @media(max-width: 768px){
             
             li {
-                font-size: 2.6vw;   
+                font-size: 2vw;   
+            }
+            .bar2 {
+                padding-top: 3%;
+                padding-bottom: 3%;
             }
         }
+    @media(max-width: 500px){
+        li{
+            font-size: 2.6vw;
+        }
+        .bar2 {
+                padding-top: 3%;
+                padding-bottom: 3%;
+            }
+    }
 </style>
