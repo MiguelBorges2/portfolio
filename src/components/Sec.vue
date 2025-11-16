@@ -8,7 +8,7 @@ Trabalho principalmente com Vue.js, React, Node.js, Spring Boot, Python e Java, 
 Sou apaixonado por computação, engenharia de software e inteligência artificial, sempre buscando aprender tecnologias novas e criar soluções que realmente façam diferença.
 
 No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao longo da minha trajetória acadêmica e profissional — cada um deles representando algo que acredito: código limpo, boas práticas e amor pela tecnologia </p>
-        <a href="https://portfolio-backend-g9gf.onrender.com"><button class="butao">Baixe meu currículo</button></a>
+        <a href="https://portfolio-backend-g9gf.onrender.com/download/curriculo"><button class="butao">Baixe meu currículo</button></a>
         </div>
         <img class="imagem" src="@/assets/rosto2.jpeg"></img>
         
