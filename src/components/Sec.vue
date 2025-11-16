@@ -23,7 +23,7 @@ Sou apaixonado por computação, engenharia de software e inteligência artifici
 
 No meu portfólio você vai encontrar alguns dos projetos que desenvolvi ao longo da minha trajetória acadêmica e profissional — cada um deles representando algo que acredito: código limpo, boas práticas e amor pela tecnologia </p>
             <img class="imagem" src="@/assets/rosto2.jpeg"></img>
-            <button class="butao up">Baixe meu currículo</button>
+            <button @click="baixarcurri()" class="butao up">Baixe meu currículo</button>
         </div>
         
         
